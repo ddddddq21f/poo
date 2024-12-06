@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  #header {
+    margin-top: 30px; /* Padding from the top */
+    text-align: center;
+  }
+  
+  #logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px; /* Space between logo and subtitle */
+  }
+  
+  #counter {
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 20px; /* Space between subtitle and counter */
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Space between counter and game */
+    flex: 1; /* Push footer to the bottom */
+  }
+  
+  #click-me {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #toilet {
+    width: 700px; /* Toilet size */
+    margin-top: 20px;
+  }
+  
+  .dropped {
+    width: 50px;
+    position: absolute;
+  }
+  
+  #footer {
+    font-size: 14px;
+    color: #888;
+    text-align: center;
+    margin-bottom: 10px; /* Padding from the bottom */
+  }
+
+  #stats-container {
+    position: fixed; /* Fix to the left side */
+    top: 10%; /* Offset from top */
+    left: 10px; /* Offset slightly from the left edge */
+    background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px; /* Set a fixed width */
+    font-family: Arial, sans-serif;
+  }
+  
+  #stats h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #stats div {
+    font-size: 14px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    color: #555;
+  }
+  
+  #stats img {
+    border-radius: 3px;
+  }
+  
+
+  
+  
